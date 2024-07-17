@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct LoginView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  @State private var userName = ""
+  @State private var password = ""
+  var body: some View {
+    ZStack {
+      Color.orange.ignoresSafeArea()
+      VStack {
+        Text("Login").font(.largeTitle).fontWeight( /*@START_MENU_TOKEN@*/
+          .bold /*@END_MENU_TOKEN@*/)
+        TextField("username", text: $userName).textFieldStyle(RoundedBorderTextFieldStyle())
+        SecureField("password", text: $password).textFieldStyle(RoundedBorderTextFieldStyle())
+        Button("Login")
+          {
+              if self.userName == "lol" && self.password == "lol" {
+                  print("Login Successful")
+              } else {
+                  print("Login Failed")
+              }
+          }.buttonStyle(.borderedProminent).frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+      }.padding()
     }
+  }
 }
 
 #Preview {
-    LoginView()
+  LoginView()
 }
