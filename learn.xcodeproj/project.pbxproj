@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB755EB2C498B8200BD6B2A /* NavigateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB755EA2C498B8200BD6B2A /* NavigateView.swift */; };
 		3DC1A23F2C3F225400B733BD /* learnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1A23E2C3F225400B733BD /* learnApp.swift */; };
 		3DC1A2412C3F225400B733BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1A2402C3F225400B733BD /* ContentView.swift */; };
 		3DC1A2432C3F225500B733BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1A2422C3F225500B733BD /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DB755EA2C498B8200BD6B2A /* NavigateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateView.swift; sourceTree = "<group>"; };
 		3DC1A23B2C3F225400B733BD /* learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC1A23E2C3F225400B733BD /* learnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnApp.swift; sourceTree = "<group>"; };
 		3DC1A2402C3F225400B733BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				3DC1A2452C3F225500B733BD /* Preview Content */,
 				3DC1A2692C3F29EC00B733BD /* AppBarView.swift */,
 				3DEC27212C4828D000ADF291 /* LoginView.swift */,
+				3DB755EA2C498B8200BD6B2A /* NavigateView.swift */,
 			);
 			path = learn;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				3DC1A2412C3F225400B733BD /* ContentView.swift in Sources */,
 				3DC1A23F2C3F225400B733BD /* learnApp.swift in Sources */,
+				3DB755EB2C498B8200BD6B2A /* NavigateView.swift in Sources */,
 				3DEC27222C4828D000ADF291 /* LoginView.swift in Sources */,
 				3DC1A26A2C3F29EC00B733BD /* AppBarView.swift in Sources */,
 			);
